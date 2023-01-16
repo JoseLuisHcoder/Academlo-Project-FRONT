@@ -1,9 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import { Inter } from '@next/font/google';
-import styles from '../styles/Home.module.css';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
@@ -17,7 +12,7 @@ export default function Home() {
       <main className=''> 
           <p className='flex flex-col items-center '>
             Get started by editing&nbsp;
-            <code className='text-title-1 text-primary-blue font-title-1'>pages/index.tsx</code>
+            <code className='text-title-1 text-primary-blue font-title-1 uppercase'>pages/index.tsx</code>
           </p>
       </main>
     </>
