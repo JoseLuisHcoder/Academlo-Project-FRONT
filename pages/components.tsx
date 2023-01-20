@@ -17,8 +17,8 @@ export default function Components() {
       <ArrowNext />
       <ButtonNext />
       <EventCard />
-      <Footer />
       <Header />
+      <Footer />
       <LikeDisable />
       <LikeEnable />
       <Person />
